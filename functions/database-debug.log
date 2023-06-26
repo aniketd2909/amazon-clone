@@ -1,0 +1,8 @@
+16:31:37.344 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+16:31:37.435 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+16:31:39.950 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - clone-app-13296-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 65ms, init: 0ms
+16:31:39.975 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace clone-app-13296-default-rtdb status Active to Active
+16:48:10.507 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+16:48:10.512 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: clone-app-13296-default-rtdb
+16:48:10.517 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for clone-app-13296-default-rtdb
+16:48:10.520 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
